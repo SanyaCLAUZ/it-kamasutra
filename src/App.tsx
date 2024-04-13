@@ -18,9 +18,16 @@ function App() {
         >
           Learn React
         </a>
+        <MyButton />
       </header>
     </div>
   );
 }
 
 export default App;
+
+function MyButton() {
+  return (
+    <button>I'm a button</button>
+  );
+}
