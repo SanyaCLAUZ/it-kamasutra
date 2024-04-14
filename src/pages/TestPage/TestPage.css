@@ -1,7 +1,13 @@
 div {
-    color: white;
+  color: white;
 }
 
 .star_container {
-    font-size: 72px;
+  display: inline-block;
+  font-size: 22px; /* Initial size */
+  transition: transform 0.2s;
+}
+
+.star_container:hover {
+  cursor: pointer;
 }
