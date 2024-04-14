@@ -5,7 +5,7 @@ import AccordionList from "../../Components/Accordion/AccordionList/AccordionLis
 
 type AccordionPropsType = {
   titleValue: string;
-  bodyValue: string;
+  bodyValue: [string,string,string];
 };
 
 function Accordion(props: AccordionPropsType) {
