@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AccordionTitle from "../../Components/Accordion/AccordionTitle/AccordionTitle";
-import AccordionList from "../../Components/Accordion/AccordionList/AccordionList";
+import AccordionTitle from "./AccordionTitle";
+import AccordionList from "./AccordionList";
 
 type AccordionPropsType = {
   titleValue: string;
