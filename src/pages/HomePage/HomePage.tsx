@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
+import StyledButton from "../../Components/StyledComponents/StyledButton";
 
 interface Props {}
 
 const HomePage = (props: Props) => {
   return (
     <div>
-      <button className="button-13" role="button">
+      <StyledButton>
         <Link to="TestPage">Go to Test Page</Link>
-      </button>
+      </StyledButton>
     </div>
   );
 };

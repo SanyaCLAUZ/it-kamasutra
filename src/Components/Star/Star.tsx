@@ -1,5 +1,6 @@
 import React from "react";
 import { FaStar, FaRegStar } from "react-icons/fa";
+import { BsFillHeartFill } from "react-icons/bs";
 
 interface StarProps {
   filled: boolean;
@@ -10,7 +11,7 @@ interface StarProps {
 const Star = ({ filled, onHover, onClick }: StarProps) => {
   return (
     <span className="star_container" onMouseEnter={onHover} onClick={onClick}>
-      {filled ? <FaStar /> : <FaRegStar />}
+      {filled ? <BsFillHeartFill /> : <FaRegStar />}
     </span>
   );
 };
