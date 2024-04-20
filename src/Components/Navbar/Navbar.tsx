@@ -12,7 +12,7 @@ const Navbar = (props: Props) => {
             <a href="/">Home</a>
           </li>
           <li>
-            {/* <a href="news.asp">News</a> */}
+          <a href="TaskPage">Task</a>
           </li>
           <li>
             <a href="TestPage">Contact</a>

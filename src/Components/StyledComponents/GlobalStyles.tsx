@@ -10,24 +10,13 @@ export const GlobalStyles = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         background-color: #282c34;
-      }
-      
-      code {
-        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-          monospace;
-      }
+    }
       
       a {
         color: black;
         text-decoration: none;
       }
       
-      .center {
-        margin: auto;
-        width: 50%;
-        border: 3px solid green;
-        padding: 10px;
-      }
       .star_container {
   display: inline-block;
   font-size: 22px; /* Initial size */
