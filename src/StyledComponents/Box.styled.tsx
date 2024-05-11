@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-  height: 1000px;
+  height: 600px;
   color: white;
   display: flex;
   justify-content: center;

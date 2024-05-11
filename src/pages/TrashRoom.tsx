@@ -49,7 +49,6 @@ const TrashRoom = (props: Props) => {
           </StyledButton>
         </div>
       </Card>
-      <Card ></Card>
       </div>
     </>
   );
@@ -88,6 +87,7 @@ export const Card = styled.div`
     padding: 10px;
   }
 `;
+
 export const StyledButton = styled.button<StyledButtonPropsType>`
   font-weight: bold;
   font-family: "inter", Courier, monospace;

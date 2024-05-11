@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import StarContainer from "../Components/Star/StarContainer";
 import Accordion from "../Components/Accordion/Accordion";
-import StyledButton from "../Components/StyledComponents/StyledButton";
 import styled from "styled-components";
+import GlobalStyledButton from "../StyledComponents/GlobalButton.styled";
 
 interface Props {}
 
@@ -19,9 +19,7 @@ const TestPage = (props: Props) => {
           bodyValue={["Cute", "Beautiful", "Pretty"]}
         />
       </div>
-      <StyledButton>
-        <Link to="/">Go to Home Page</Link>
-      </StyledButton>
+      <GlobalStyledButton buttonText="Home Page" buttonLink="/"/>
     </Centura>
   );
 };
@@ -29,6 +27,7 @@ const TestPage = (props: Props) => {
 export default TestPage;
 
 export const Centura = styled.div`
+  color: white;
   height: 1920px;
   padding-top: 5%;
   justify-content: center;
